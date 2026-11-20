@@ -1,0 +1,15 @@
+generation = 2
+
+[app]
+id = "weather"
+publisher_id = "gitkb"
+name = "Weather Demo"
+description = "Shows a sunny forecast for the marketplace demo."
+version = "0.1.0"
+gitkb_min_version = "0.4.0"
+
+[guest]
+kind = "browser"
+theme = "gitkb"
+entry = "index.html"
+assets = [ { path = "index.html", sha256 = "3b09e12856e38fe1122602bd13487329360044c93feb79eee213e3dbb21d351c" } ]
